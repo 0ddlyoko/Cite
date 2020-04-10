@@ -1,0 +1,30 @@
+name: Cite
+main: me.oddlyoko.cite.Cite
+version: 1.0
+author: oddlyoko
+website: http://www.0ddlyoko.be
+api-version: 1.13
+depend: [WorldGuard]
+softdepend: [MVdWPlaceholderAPI, Multiverse-Core]
+commands:
+  team:
+    description: help Team
+permissions:
+  cite.sign.emerald.create:
+    default: op
+    description: Add an emerald sign
+  cite.sign.emerald.use:
+    default: op
+    description: Use the emerald sign
+  cite.sign.emerald.remove:
+    default: op
+    description: Destroy an house sign
+  cite.sign.house.create:
+    default: op
+    description: Create an house sign
+  cite.sign.house.use:
+    default: op
+    description: Use the house sign
+  cite.sign.house.remove:
+    default: op
+    description: Destroy an house sign

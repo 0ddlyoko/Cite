@@ -1,0 +1,17 @@
+- Clique droit sur une pancarte pour acheter une maison
+	- Vérification du nombre d'émeraudes qu'on a dans l'inventaire
+- Un pnj qui échanger émeraudes => Points au spawn
+- Une gestion des teams pour les émeraudes
+- Un /top pour voir le top des émeraudes
+- Les équipes ne peuvent pas se PvP entre eux
+- Désactiver la pomme de Notch
+- Maximum 1 maison par personne
+- Scoreboard
+- /team <add|remove> <player>	<== Lors d'un add, l'autre joueur doit confirmer
+- /team name <name>
+- /team leave					<== La team doit être vide
+- /team join <name>				<== Par invitation
+- Activer la tnt
+- Protéger le spawn
+- Activer la lave
+- Gagner des émeraudes 

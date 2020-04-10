@@ -1,0 +1,67 @@
+commands:
+  invite:
+    yourself: "&cVous ne pouvez pas vous inviter vous-même"
+    notOwner: "&cVous devez être le chef de l'équipe pour pouvoir inviter un joueur"
+    alreadyTeam: "&cCe joueur fait déjà partie de votre équipe"
+    notConnected: "&cCe joueur n'est pas connecté"
+    hasTeam: "&cCe joueur possède déjà une équipe"
+    full: "&cVotre équipe est pleine"
+    invitation: "&cCe joueur a désactivé ses invitations"
+    send: "&aInvitation envoyée à {player}"
+    receive: "&6Vous avez reçu une invitation de &e{player} &6pour rejoindre l'équipe &e{team}&6, veuillez entrer &e/team accept {player} &6pour rejoindre l'équipe"
+  kick:
+    yourself: "&cVous ne pouvez pas vous expulser vous-même"
+    notTeammate: "&cCe joueur ne fait pas partie de votre équipe"
+    notOwner: "&cVous devez être le chef de l'équipe pour pouvoir expulser un joueur"
+    other: "&aLe joueur {player} a été expulsé par {player2}"
+    kicked: "&cVous avez été expulsé de l'équipe par {player}"
+  name:
+    notOwner: "&cVous devez être le chef de l'équipe pour pouvoir modifier le nom"
+    limit: "&cVeuillez entrer un nom plus petit"
+    changed: "&aNom d'équipe modifié en {name}"
+  leave:
+    owner: "&cVous ne pouvez pas quitter votre propre équipe"
+    other: "&aLe joueur {player} ne fait plus partie de votre équipe"
+    leave: "&aVous avez quitté l'équipe !"
+  accept:
+    noInvitation: "&cVous n'avez pas reçu d'invitations de ce joueur"
+    full: "&cL'équipe {team} est remplie"
+    sent: "&aInvitation acceptée, vous avez rejoint l'équipe {team}"
+    other: "&aLe joueur {player} fait maintenant partie de votre équipe"
+  other:
+    error: "&cUne erreur est survenue, veuillez réessayer ou vous reconnecter"
+    syntax: "&cSyntax: {syntax}"
+  toggle:
+    enable: "&aVous pourrez désormais recevoir des invitations"
+    disable: "&aVous n'allez plus recevoir d'invitations"
+inventory:
+  emerald_deposit:
+    title: "&6Déposer des émeraudes"
+    item: 
+      title: "&6Déposer &e{number} &6émeraudes"
+      lore:
+      - "&6Déposer &e{number} &6émeraudes pour votre équipe"
+      - "&6Nombre d'émeraudes actuel: &e{emerald}"
+      - "&6Nombre d'émeraudes après: &e{emerald_after}"
+sign:
+  # The message shown in emerald sign. Maximum 3 lines.
+  emerald:
+  - "&2Clique-Droit"
+  - "&2Pour"
+  - "&2Déposer"
+  # The message shown in house sign. Maximum 3 lines.
+  house:
+    free:
+    - ""
+    - "&2Prix: {cost}E"
+    - ""
+    taken:
+    - "&2Habitation {id}"
+    - "&aPropriétaire:"
+    - "&2{player}"
+    create: "&2Maison créée !"
+    delete: "&2Maison supprimée !"
+    buy:
+      self: "&eVous venez d'acheter l'habitation &e{id}"
+      other: "&e{player} &6vient d'acheter l'habitation &e{id}"
+    

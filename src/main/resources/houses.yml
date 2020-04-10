@@ -1,0 +1,11 @@
+houses:
+  '1':
+    id: 1
+    cost: 30
+    regions:
+    - house1_1
+    - house1_2
+    sign:
+      x: ...
+      y: ...
+      z: ...

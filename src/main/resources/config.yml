@@ -1,0 +1,15 @@
+# The maximum amount of players per team. Set to -1 to disable it
+max_player: 4
+# The maximum length of the team name
+name_length: 7
+# If true, disable villager spawning
+disable_villager: true
+# Broadcast a message when a player buy an house
+broadcast_house: true
+# Prevent the creation of portal in specific area
+portal:
+  world: cite
+  regions:
+  - spawn
+# Prevent the player to eat GOD apple (or Notch apple)
+prevent_god_apple: true
